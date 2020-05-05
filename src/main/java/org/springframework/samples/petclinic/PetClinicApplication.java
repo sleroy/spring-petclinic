@@ -16,6 +16,7 @@
 
 package org.springframework.samples.petclinic;
 
+import com.byoskill.architecture.boot.config.EnableArchitectureModule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -25,6 +26,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Dave Syer
  *
  */
+@EnableArchitectureModule
 @SpringBootApplication(proxyBeanMethods = false)
 public class PetClinicApplication {
 
